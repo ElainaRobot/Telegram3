@@ -1,7 +1,7 @@
 ![](https://github.com/Rexashh/YukkiRexa/blob/master/d958bb05418639f7ebe67755900f5ad0.gif)
 
 <h4 align="center">
-     BASE REPO YUKKI MUSIC BOT SAYA HANYA CLONING, MERUBAH / ATAU MENAMBAH BAHASA INDONESIA SUNDA, JAWA, & TOXIC
+      INI PRIVATE XA MUSIC YA ANJG
 </h4>
 
 
