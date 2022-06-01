@@ -6,7 +6,7 @@
 
 
     
-# YUKKI REXA
+# XA PRIVATE
 
 <details>
 <summary><b>🚀 STRING SESSION </b></summary>
