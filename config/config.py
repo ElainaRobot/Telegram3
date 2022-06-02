@@ -42,6 +42,11 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 # A name for your Music bot.
 MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
 
+# MUST JOIN
+MUST_JOIN = getenv("MUST_JOIN", None)
+if MUST_JOIN.startswith("@"):
+    MUST_JOIN = MUST_JOIN.replace("@", "")
+
 # Your User ID.
 OWNER_ID = list(
     map(int, getenv("OWNER_ID", "").split())
