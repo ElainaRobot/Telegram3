@@ -34,7 +34,7 @@
 - Install Node
 `curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - kloning repository
-`git clone https://github.com/Rexashh/YukkiRexa &&  cd YukkiRexa`
+`git clone https://Rexashh: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@github.com/Rexashh/musicxa &&  cd musicxa`
 - install requirements
 `pip3 install -U -r requirements.txt`
 - mengganti nama sample.env dengan .env
