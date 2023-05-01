@@ -17,11 +17,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get it from my.telegram.org
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "21514379"))
+API_HASH = getenv("74d2ed4a390441cc56f66daed5bfe8c4")
 
 ## Get it from @Botfather in Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("6208942065:AAGx-r9ApBDQ0QT6RXGpHRqQmlQ0rQRtIdg")
 
 # Database to save your chats and stats... Get MongoDB:-  https://telegra.ph/How-To-get-Mongodb-URI-04-06
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
@@ -40,7 +40,7 @@ SONG_DOWNLOAD_DURATION = int(
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
 
 # A name for your Music bot.
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME")
+MUSIC_BOT_NAME = getenv("ᴇʟᴀɪɴᴀ ʀᴏʙᴏᴛ")
 
 # MUST JOIN
 MUST_JOIN = getenv("MUST_JOIN", None)
@@ -49,7 +49,7 @@ if MUST_JOIN.startswith("@"):
 
 # Your User ID.
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "").split())
+    map(int, getenv("6029970020", "").split())
 )  # Input type must be interger
 
 # Get it from http://dashboard.heroku.com/account
@@ -61,7 +61,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Rexashh/YukkiRexa",
+    "Cari apa bang",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -70,10 +70,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
-    "SUPPORT_CHANNEL", None
+    "ElainaRobotSupport", None
 )  # Example:- https://t.me/tirexgugel
 SUPPORT_GROUP = getenv(
-    "SUPPORT_GROUP", None
+    "https://t.me/ElainaManagerSupport", None
 )  # Example:- https://t.me/rexaprivateroom
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
